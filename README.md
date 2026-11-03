@@ -39,8 +39,8 @@ These datasets provide both geographic and temporal information required to link
 
 Expected outcomes include:
 - Identification of TTC routes and stations most vulnerable to extreme precipitation.
-- Heatmaps and geospatial visualizations showing disruption hotspots. [Polygons](deliverables/deliverable-2/thessian_delay_plot.png)
-- Statistical analysis quantifying relationships between weather severity and service delays.[DelayBarPlot](deliverables/deliverable-2/bus_plot.png)
+- Heatmaps and geospatial visualizations showing disruption hotspots. ![Polygons](deliverables/deliverable-2/thessian_delay_plot.png)
+- Statistical analysis quantifying relationships between weather severity and service delays.![DelayBarPlot](deliverables/deliverable-2/bus_plot.png)
 - Predictive models capable of forecasting weather-related disruptions.
 - Interactive dashboards displaying current weather conditions, delays, and future risk.
 

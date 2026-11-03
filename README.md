@@ -88,7 +88,7 @@ Project workflow:
 ---
 ## Quick Start
 
-Access the interactive map sample and demo report within the deliverables folder. The current code base is provided in the notebooks folder.
+Access the interactive map sample above and the Progress Report within the deliverables folder. The current code base is provided in the notebooks folder. The description of what each notebook does is in the Progress Report. Required data to download into notebook folder is found in the data folder.
 
 ---
 

@@ -50,10 +50,10 @@ Expected outcomes include:
 - Identification of TTC routes and stations most vulnerable to extreme precipitation.
 - Heatmaps and geospatial visualizations showing disruption hotspots.
 
-  <img src="deliverables/deliverable-2/thessian_delay_plot.png" width="30%" alt="thiessien">
+  <img src="deliverables/deliverable-2/figures/thessian_delay_plot.png" width="30%" alt="thiessien">
 - Statistical analysis quantifying relationships between weather severity and service delays.
 
-  <img src="deliverables/deliverable-2/bus_plot.png" width="30%" alt="bus bar">
+  <img src="deliverables/deliverable-2/figures/bus_plot.png" width="30%" alt="bus bar">
 - Predictive models capable of forecasting weather-related disruptions.
 - Interactive dashboards displaying current weather conditions, delays, and future risk.
 

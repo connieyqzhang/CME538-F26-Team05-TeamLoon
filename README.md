@@ -8,7 +8,7 @@ Predicting the Effects of Extreme Precipitation Events on TTC Operations
   <img src="deliverables/deliverable-2/thessian_delay_plot.png" alt="Interactive map preview" width="30%">
 </a>
   
-  *Click the image to explore the live map*
+  *Click the image to explore an interactive precipitation map for September 25, 2025*
 </div>
 
 ---

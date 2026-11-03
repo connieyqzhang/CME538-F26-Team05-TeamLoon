@@ -23,9 +23,13 @@ Our current progress is shown below: 
 | Dashboard integration     | Upcoming      |
 | Final recommendations     | Upcoming      | 
 
-[Rain gauge data →](../../notebooks/PrecipicationData.ipynb)
+[Rain gauge data. Includes: Dataframe with rain gauges. Dataframes with 3 and 4 season guages. Theissen polygon creation. Interactive map visualizations →](../../notebooks/PrecipicationData.ipynb)
 
-[Bus Delay date →](../../notebooks/Bus%20Delay/TTC%20Bus%20Delay%20Post%202025,2026.ipynb)
+[Post 2025 Bus Delay →](../../notebooks/Bus%20Delay/TTC%20Bus%20Delay%20Post%202025,2026.ipynb)
+
+[Pre 2025 Bus Delay Data Cleaning →](../../notebooks/Bus%20Delay/pre_2025_ttc_clean_data.ipynb)
+[Pre 2025 Bus Delay Adding Coordinates →](../../notebooks/Bus%20Delay/ttc_add_coordinates.ipynb)
+[Pre 2025 Bus Delay EDA and delay heatmap visualization →](../../notebooks/Bus%20Delay/pre_2025_ttc_bus_EDA.ipynb)
 
 # 2.0 Dataset Acquisition and Preparation 
 Historical Rain Gauge Data and TTC delay data included in Deliverable 1 were used. Table 1.0 summarises dataset source(s), how the data was obtained, dataset size and format, and important variables/features.

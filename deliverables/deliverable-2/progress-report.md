@@ -23,9 +23,9 @@ Our current progress is shown below: 
 | Dashboard integration     | Upcoming      |
 | Final recommendations     | Upcoming      | 
 
-[Rain gauge data →](../notebooks/PrecipicationData.ipynb)
+[Rain gauge data →](../../notebooks/PrecipicationData.ipynb)
 
-[Bus Delay date →](../notebooks/Bus%20Delay/TTC%20Bus%20Delay%20Post%202025,2026.ipynb)
+[Bus Delay date →](../../notebooks/Bus%20Delay/TTC%20Bus%20Delay%20Post%202025,2026.ipynb)
 
 # 2.0 Dataset Acquisition and Preparation 
 Historical Rain Gauge Data and TTC delay data included in Deliverable 1 were used. Table 1.0 summarises dataset source(s), how the data was obtained, dataset size and format, and important variables/features.

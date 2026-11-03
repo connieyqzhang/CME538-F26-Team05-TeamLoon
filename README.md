@@ -4,7 +4,7 @@ Predicting the Effects of Extreme Precipitation Events on TTC Operations
 
 
 <div align="center">
-<a href="(https://connieyqzhang.github.io/CME538-F26-Team05-TeamLoon/)">
+<a href="https://connieyqzhang.github.io/CME538-F26-Team05-TeamLoon/">
   <img src="deliverables/deliverable-2/thessian_delay_plot.png" alt="Interactive map preview" width="30%">
 </a>
   

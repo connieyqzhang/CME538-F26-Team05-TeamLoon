@@ -23,13 +23,16 @@ Our current progress is shown below: 
 | Dashboard integration     | Upcoming      |
 | Final recommendations     | Upcoming      | 
 
-[Rain gauge data. Includes: Dataframe with rain gauges. Dataframes with 3 and 4 season guages. Theissen polygon creation. Interactive map visualizations →](../../notebooks/PrecipicationData.ipynb)
+[Rain gauge data →](../../notebooks/PrecipicationData.ipynb) Includes: Dataframe with rain gauges. Dataframes with 3 and 4 season gauges. Theissen polygon creation. Interactive map visualizations
 
-[Post 2025 Bus Delay →](../../notebooks/Bus%20Delay/TTC%20Bus%20Delay%20Post%202025,2026.ipynb)
 
-[Pre 2025 Bus Delay Data Cleaning →](../../notebooks/Bus%20Delay/pre_2025_ttc_clean_data.ipynb)
-[Pre 2025 Bus Delay Adding Coordinates →](../../notebooks/Bus%20Delay/ttc_add_coordinates.ipynb)
-[Pre 2025 Bus Delay EDA and delay heatmap visualization →](../../notebooks/Bus%20Delay/pre_2025_ttc_bus_EDA.ipynb)
+[Post 2025 Bus Delay ](../../notebooks/Bus%20Delay/TTC%20Bus%20Delay%20Post%202025,2026.ipynb) Conducts data cleaning for weather related delays, align data geographically with the rain gauge data. Combines TTC bus delay data with rain gauge data.
+
+[Pre 2025 Bus Delay Cleaning ](../../notebooks/Bus%20Delay/pre_2025_ttc_clean_data.ipynb) Data Cleaning
+
+[Pre 2025 Bus Delay Coordinates ](../../notebooks/Bus%20Delay/ttc_add_coordinates.ipynb) Adding Coordinates
+
+[Pre 2025 Bus Delay EDA ](../../notebooks/Bus%20Delay/pre_2025_ttc_bus_EDA.ipynb) EDA and delay heatmap visualization
 
 # 2.0 Dataset Acquisition and Preparation 
 Historical Rain Gauge Data and TTC delay data included in Deliverable 1 were used. Table 1.0 summarises dataset source(s), how the data was obtained, dataset size and format, and important variables/features.

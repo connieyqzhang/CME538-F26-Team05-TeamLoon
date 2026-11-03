@@ -5,7 +5,7 @@ Predicting the Effects of Extreme Precipitation Events on TTC Operations
 
 <div align="center">
 <a href="https://connieyqzhang.github.io/CME538-F26-Team05-TeamLoon/">
-  <img src="deliverables/deliverable-2/thessian_delay_plot.png" alt="Interactive map preview" width="30%">
+  <img src="deliverables/deliverable-2/figures/thessian_delay_plot.png" alt="Interactive map preview" width="30%">
 </a>
   
   *Click the image to explore an interactive precipitation map for September 25, 2025*

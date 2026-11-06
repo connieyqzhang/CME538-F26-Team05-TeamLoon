@@ -416,7 +416,8 @@ with st.container(border=True):
     bars = base.transform_filter(alt.datum.series == "Actual").mark_bar(size=4 if year == "All years" else 7,
                                                                        opacity=0.9).add_params(pick)
     dots = base.transform_filter(alt.datum.series == "Predicted").mark_point(filled=True, size=45, opacity=0.95)
-    marker = alt.Chart(pd.DataFrame({"date": [day]})).mark_rule(color="#888", strokeDash=[4, 3]).encode(x="date:T")
+    marker_days = pd.to_datetime([day] if year == "All years" or day.year == year else [])
+    marker = alt.Chart(pd.DataFrame({"date": marker_days})).mark_rule(color="#888", strokeDash=[4, 3]).encode(x="date:T")
     timeline = (bars + dots + marker).properties(height=260)
     try:
         st.altair_chart(timeline, key="pc_timeline", on_select=pick_from_timeline)

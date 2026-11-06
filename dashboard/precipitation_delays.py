@@ -408,7 +408,9 @@ with st.container(border=True):
     pick_precip = alt.selection_point(name="pick_precip", fields=["date"], on="click")
     pick_delay = alt.selection_point(name="pick_delay", fields=["date"], on="click")
     base = alt.Chart(year_rows).encode(x=alt.X("date:T", title=None, axis=alt.Axis(format="%b", tickCount="month")))
-    marker = alt.Chart(pd.DataFrame({"date": [day]})).mark_rule(color="#888", strokeDash=[4, 3]).encode(x="date:T")
+    # Only mark the selected day when it falls in the year shown; otherwise it would stretch the x axis
+    marker_days = pd.to_datetime([day] if day.year == st.session_state.year else [])
+    marker = alt.Chart(pd.DataFrame({"date": marker_days})).mark_rule(color="#888", strokeDash=[4, 3]).encode(x="date:T")
     precip_chart = (base.mark_bar(color=PRECIP_BLUE).encode(y=alt.Y("mean_precip_mm:Q", title="Precipitation, mm"), tooltip=tooltip)
                   .add_params(pick_precip).properties(height=160))
     delay_chart = (base.mark_bar(color=DELAY_ORANGE).encode(y=alt.Y("delays:Q", title="Delays"), tooltip=tooltip)
